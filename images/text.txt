@@ -1,0 +1,21 @@
+html:Curiosity of knowing that how websites are made excited me
+to learn HTML.At this point of time I have Good Understanding of HTML tags.
+
+Css:After learning HTML I found that there is an another
+language called CSS3 is very Important to do designing web pages which excited me to
+learn CSS3. Now I have Good knowledge of CSS3.
+
+javascript:Already I had heard from somewhere that JavaScript is one
+of the Important part of Web Development. It makes website Dynamic.As "Soul makes our
+Body Dynamic".So we can say it is the soul of the website.The word "Dynamic" itself
+excited me to learn JavaScript.
+
+C++:This My Second language in the world of Programming as my
+first language was mother of all language(C).I personally use this language for
+Competitive Programming.
+
+c:This is My First language in the World of Programming as it
+was taught in our first year of College.
+
+python:As I have mentioned in my intro that I got interest in the
+field of AI/ML,so I choose python for that.Which is very easy to use.

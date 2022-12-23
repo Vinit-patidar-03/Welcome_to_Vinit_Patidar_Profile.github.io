@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./images/img2.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Welcome to Vinit Patidar's Portfolio Website</title>
+</head>
+
+<body style="font-family: 'Ubuntu',sans-serif; background-color: #20565e">
+    <nav class="navbar navbar-expand-lg navbar-dark" style=" background-color:#6D9886;">
+        <div class="container-fluid">
+            <img src="./images/logo.jpg" alt="" style="width:40px; border-radius:20px; margin-right: 20px;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Hobbies.html">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact Me</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" style="color: white;">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div id="carouselExampleCaptions" style="height:500px;;" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./images/Program.jpg" height="500px;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Programming</h5>
+                        <p>Welcome to My Website. I am Vinit Patidar.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/code1.jpg" height="500px;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Web Development</h5>
+                        <p>Welcome to My Website. I am Vinit Patidar.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/Machine.png" height="500px;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption ">
+                        <h5>Machine Learning in Agriculture</h5>
+                        <p>Welcome to My Website. I am Vinit Patidar.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <h2 class="text-center" style="margin: 25px 0px; color: white;">Profile</h2>
+
+    <section style="width:100%; display: flex; justify-content: center; align-items: center; margin:30px 0px;">
+        <div class="card mb-3 " style="width:70%; background-color:#6D9886;   box-shadow: 5px 3px 5px black;">
+            <div class="row g-0 d-flex flex-column justify-content-center align-items-center">
+                <div class="col d-flex-md-4">
+                    <img src="./images/img3.png" style="width: 100px; position: relative; left: 15px;"
+                        class="rounded mx-auto d-block" alt="...">
+                </div>
+                <div class="col d-flex-md-8" style="color: white;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Vinit Patidar</h5>
+                        <p class="card-text text-center">Hello,My name is Vinit Patidar. I am second year undergraduate
+                            student of the department of Agricultural and Food Engineering. I am a Programming,Web
+                            Development and Machine Learning enthusiast. I have a huge interest in appliction of AI/ML
+                            into Agriculture so currently I am exploring the field of AI/ML and its uses in the field of
+                            Agriculture.
+                        </p>
+                        <p class="text-center d-flex justify-content-center">
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#Schools" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Education
+                            </a>
+                        </p>
+                        <div class="collapse" id="Schools">
+                            <div class="d-flex justify-content-evenly flex-wrap">
+                                <div class="card"
+                                    style="width: 300px; margin:10px 0px; background-color:#476072; box-shadow: 5px 3px 5px black;">
+                                    <div class="row g-0 d-flex flex-column">
+                                        <div class="col d-flex-md-4">
+                                            <img src="./images/primary_School.jpg" class="img-fluid rounded-start"
+                                                alt="...">
+                                        </div>
+                                        <div class="col d-flex-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Gayatri Vidhya Mandir Oon Bujurg,Khargone Madhya
+                                                    Pradesh</h5>
+                                                <p class="card-text">This school is my Base forming school as I studied
+                                                    here for 11yrs</p>
+                                                <p class="card-text">Studied: Nursery to 8th Standard</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card"
+                                    style="width: 300px; margin:10px 0px; background-color:#476072; box-shadow: 5px 3px 5px black;">
+                                    <div class="row g-0 d-flex flex-column">
+                                        <div class="col d-flex-md-4">
+                                            <img src="./images/High_school.jpg" class="img-fluid rounded-start"
+                                                alt="...">
+                                        </div>
+                                        <div class="col d-flex-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Govenment Higher Secondary School Oon
+                                                    Bujurg,Khargone Madhya Pradesh</h5>
+                                                <p class="card-text">This school brings my Golden Time as I did Top in
+                                                    the Whole Khargone District in Class:10th Board Examination.</p>
+                                                <p class="card-text">Studied: 9th and 10th Standard</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card"
+                                    style="width: 300px; margin: 10px 0px; background-color:#476072;box-shadow: 5px 3px 5px black">
+                                    <div class="row g-0 d-flex flex-column">
+                                        <div class="col d-flex-md-4">
+                                            <img src="./images/High_School.jpg" class="img-fluid rounded-start"
+                                                alt="...">
+                                        </div>
+                                        <div class="col d-flex-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Govenment Subhash Higher Secondary School Shivaji
+                                                    Nagar,Bhopal Madhya Pradesh</h5>
+                                                <p class="card-text">This is the school where first time I heard about
+                                                    IIT-JEE so I can it is my future building school.</p>
+                                                <p class="card-text">studied: 11th and 12th Standard</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card"
+                                    style="width: 300px; margin:10px 0px; background-color:#476072; box-shadow: 5px 3px 5px black;">
+                                    <div class="row g-0 d-flex flex-column">
+                                        <div class="col d-flex-md-4">
+                                            <img src="./images/iitkgp.png" height="100px"
+                                                class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col d-flex- md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Indian Institute of Technology Kharagpur</h5>
+                                                <p class="card-text">Department: Agricultural and Food Engineering</p>
+                                                <p class="card-text">Course: Dual Degree</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <h2 class="text-center" style="margin: 25px 0px; color: white;">Skills</h2>
+    <section style="width:100%; margin:30px 0px; color: white;">
+        <div class="card" style="width:70%; margin: auto; background-color: #6D9886; box-shadow: 5px 3px 5px black;">
+            <div class="card-body d-flex justify-content-evenly flex-wrap">
+                <img src="./images/Html.webp" width="50px" alt="" style="margin:20px;">
+                <img src="./images/Css.webp" width="50px" alt="" style="margin:20px;">
+                <img src="./images/javascript.png" width="50px" alt="" style="margin:20px;">
+                <img src="./images/c++.png" width="50px" alt="" style="margin:20px;">
+                <img src="./images/C.png" width="50px" alt="" style="margin:20px;">
+                <img src="./images/python.png" width="50px" alt="" style="margin:20px;">
+            </div>
+            <p class="text-center d-flex justify-content-center">
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#View" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    View
+                </a>
+            </p>
+            <div class="collapse" id="View">
+                <div class="d-flex justify-content-evenly flex-wrap" style="margin: 10px 10px;">
+                    <div class="card"
+                        style="width: 300px; margin:10px 0px; background-color:#476072; box-shadow: 5px 3px 5px black;">
+                        <div class="row g-0 d-flex flex-column">
+                            <div class="col d-flex-md-4">
+                                <img src="./images/Html.webp" class="img-fluid rounded-start"
+                                    style="width:100px; display:block; margin:auto;" alt="...">
+                            </div>
+                            <div class="col d-flex-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">HTML5</h5>
+                                    <p class="card-text text-center">Curiosity of knowing that how websites are made
+                                        excited me
+                                        to learn HTML.At this point of time I have Good Understanding of HTML tags.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card"
+                        style="width: 300px; margin:10px 0px; background-color: #476072; box-shadow: 5px 3px 5px black;">
+                        <div class="row g-0 d-flex flex-column">
+                            <div class="col d-flex-md-4">
+                                <img src="./images/Css.webp" class="img-fluid rounded-start"
+                                    style="width:100px; display:block; margin:auto;" alt="...">
+                            </div>
+                            <div class="col d-flex-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">CSS3</h5>
+                                    <p class="card-text text-center">After learning HTML I found that there is an
+                                        another
+                                        language called CSS3 is very Important to do designing web pages which excited
+                                        me to
+                                        learn CSS3. Now I have Good knowledge of CSS3.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card"
+                        style="width: 300px; margin: 10px 0px; background-color: #476072; box-shadow: 5px 3px 5px black;">
+                        <div class="row g-0 d-flex flex-column">
+                            <div class="col d-flex-md-4">
+                                <img src="./images/javascript.png" class="img-fluid rounded-start"
+                                    style="width:100px; display:block; margin:auto;" alt="...">
+                            </div>
+                            <div class="col d-flex-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">JavaScript</h5>
+                                    <p class="card-text text-center">Already I had heard from somewhere that JavaScript
+                                        is one
+                                        of the Important part of Web Development. It makes website Dynamic.As "Soul
+                                        makes our
+                                        Body Dynamic".So we can say it is the soul of the website.The word "Dynamic"
+                                        itself
+                                        excited me to learn JavaScript.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card"
+                        style="width: 300px; margin:10px 0px; background-color: #476072; box-shadow: 5px 3px 5px black;">
+                        <div class="row g-0 d-flex flex-column">
+                            <div class="col d-flex-md-4">
+                                <img src="./images/c++.png" class="img-fluid rounded-start"
+                                    style="width:100px; display:block; margin:auto;" alt="...">
+                            </div>
+                            <div class="col d-flex- md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">C++</h5>
+                                    <p class="card-text text-center">This My Second language in the world of Programming
+                                        as my
+                                        first language was mother of all language(C).I personally use this language for
+                                        Competitive Programming.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card"
+                        style="width: 300px; margin:10px 0px; background-color: #476072; box-shadow: 5px 3px 5px black;">
+                        <div class="row g-0 d-flex flex-column">
+                            <div class="col d-flex-md-4">
+                                <img src="./images/C.png" class="img-fluid rounded-start"
+                                    style="width:100px; display:block; margin:auto;" alt="...">
+                            </div>
+                            <div class="col d-flex-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">C</h5>
+                                    <p class="card-text text-center">This is My First language in the World of
+                                        Programming as it
+                                        was taught in our first year of College.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card"
+                        style="width: 300px; margin:10px 0px; background-color: #476072; box-shadow: 5px 3px 5px black;">
+                        <div class="row g-0 d-flex flex-column">
+                            <div class="col d-flex-md-4">
+                                <img src="./images/python.png" class="img-fluid rounded-start"
+                                    style="width:100px; display:block; margin:auto;" alt="...">
+                            </div>
+                            <div class="col d-flex-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Python</h5>
+                                    <p class="card-text text-center">As I have mentioned in my intro that I got interest
+                                        in the
+                                        field of AI/ML,so I choose python for that.Which is very easy to use.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <h2 class="text-center" style="color:white;">About</h2>
+    <section style="width:100%; display: flex; justify-content: center; align-items: center; margin:30px 0px;">
+        <div class="card" style="width:70%; color: white;  box-shadow: 5px 3px 5px black;">
+            <h4 class="card-header text-center" style="background-color: #91b1a3;">My Journey</h4>
+            <div class="card-body" style="background-color: #6D9886;">
+                <p class="card-text text-center">I was admitted to school in year 2005. In my initial 10 years of
+                    school(Nursery to
+                    7th Standard), I was a very weak in studies, several times I faced the situation of getting low
+                    grades in the Examination. In my 8th Standard I got a teacher who gave me confidence of performing
+                    well in the Examinations.He taught me Mathematics,I worked hard and finally I became the topper of
+                    my
+                    Class.After 8th Class I took addmission in a Government High School of my Village. After then I
+                    never looked back and Again I became the District topper in my District: Khargone,Madhya
+                    Pradesh in Class:10th Board Examination with 96.6% Marks.After becoming topper in class: 10th I
+                    selected for the "MP Super 100 Scheme" and my school changed into a Excellence school,then I got
+                    92.6% Marks in the Class 12th Board Examination.Then I prepared for IIT-JEE and I got
+                    selected.Currently I am studying in IIT Kharagpur.This is my real story.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="card text-center">
+            <div class="card-header" style="background-color: #91b1a3; color: white;">
+                <h5>links to Follow:</h5>
+            </div>
+            <div class="card-body d-flex justify-content-evenly" style="background-color: #88a398;">
+                <a href="https://www.youtube.com/channel/UCq-X1tauK-tu5f461j8yimw"><img src="./images/youtube.png"
+                        width="20px" alt="youtube"></a>
+                <a href="https://www.linkedin.com/in/vinit-patidar-ab4041227/"><img src="./images/linkedin.png"
+                        width="20px" alt="linkedin"></a>
+                <a href="https://www.facebook.com/vinit.patidar.9887"><img src="./images/facebook.png" width="20px"
+                        alt="facebook"></a>
+                <a href="https://www.instagram.com/vinit_patidar_03/"><img src="./images/Instagram.png" width="20px"
+                        alt="linkedin"></a>
+                <a href="https://twitter.com/vinit_03"><img src="./images/twitter.jpg" width="20px" alt=""></a>
+            </div>
+            <div class="card-footer" style="color:white; background-color: #6D9886;">
+                Copyright &copy; all rights reserved
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
